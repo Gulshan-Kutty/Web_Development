@@ -1,0 +1,20 @@
+/* Wrong method
+div{
+    background-color: blue;
+    color: white;
+}
+p:first-child{
+    background-color: yellow;
+    color: red;
+}  */
+
+/* Right method */
+p{
+    background-color: blue;
+    color: white;
+}
+
+div p:first-child{
+    background-color: yellow;
+    color: red;
+}
