@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: grey;
+            padding: 45px;
+        }
+
+        .card {
+            background-color: white;
+
+            width: 198px;
+            /* height: 370px; */
+            border-radius: 7px;
+            padding: 0 0 35px 0;
+            margin: 4px;
+        }
+
+        .image {
+            padding: 5px;
+
+        }
+
+        .image img {
+            border-radius: 7px;
+            width: 188px;
+        }
+
+        .capsules{
+            padding: 0 13px;
+        }
+        .capsules span {
+            border: 1px solid grey;
+            padding: 0 7px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        
+        .content {
+            padding: 7px 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .content p {
+            font-size: 12px;
+            color: gray;
+        }
+
+        .button{
+            text-align: center;
+            margin-top: 7px ;
+        }
+
+        .button button{
+            padding: 4px 5px;
+            border-radius: 15px;
+            background-color: rgb(203, 203, 233);
+            color: darkblue;
+            font-size: 10px;
+            /* margin-top: 5px ; */
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="image.png" alt="">
+        </div>
+
+        <div class="capsules">
+            <span> Nature</span>
+            <span> Lake</span>
+        </div>
+        <div class="content">
+            <h2>Gulshan</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, temporibus ea error, architecto quam
+                illum mollitia ex sunt quaerat labore ipsa sit quod?</p>
+        </div>
+
+        <div class="button">
+            <button>Read More</button>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
